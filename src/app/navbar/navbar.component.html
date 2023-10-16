@@ -1,0 +1,31 @@
+<nav>
+<div class="brand-search">
+       <form>
+         <input type="text" placeholder="Search.." name="search">
+         <button type="search"><i class="fa fa-search"></i></button>
+    </form>
+</div>
+    <ul class="menu">
+
+            <li>
+                <div class="language">
+                   <fa-icon [icon]="faGlobe"></fa-icon>
+                </div>
+            </li>
+            <li>
+               <fa-icon [icon]="faEnvelope"></fa-icon>
+                <span class="badge badgeEnv">3</span>
+            </li>
+            <li>
+              <fa-icon [icon]="faBell"></fa-icon>
+                 <span class="badge badgebell">3</span>
+            </li>
+            <li class="profile">
+                <h2 class="title">{{username}}</h2>
+                <div class="picture">
+                    <fa-icon [icon]="faUser"></fa-icon>
+                     <span class="badge badgeuser">3</span>
+                </div>
+            </li>
+    </ul>
+</nav>

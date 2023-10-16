@@ -1,0 +1,119 @@
+.log-container{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  width: 800px;
+  height: 538px;
+  margin: 2em auto;
+}
+
+
+.card{
+  display: grid;
+  grid-template-columns: 380px 500px;
+  align-items: center;
+  align-content: center;
+  margin: 5em auto;
+  width: 100%;
+  height: 100%;
+
+}
+
+.left-card{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  row-gap: 4em;
+  align-items: center;
+  align-content: center;
+  color: white;
+  background: linear-gradient(darkblue, lightblue );
+}
+
+.logo img{
+  width: 60px;
+  height: 60px;
+}
+
+.logo{
+  display: flex;
+  align-content: baseline;
+  align-items: center;
+}
+
+.police-logo{
+  width: 160px;
+  height: 160px;
+}
+
+.right-card{
+  display: grid;
+  grid-template-rows: 60px 300px;
+
+  width: 100%;
+  gap: 1em;
+  margin-left: 2em;
+}
+.description{
+  margin-top: 10px;
+  margin-bottom:30px;
+  grid-column: 1/-1;
+}
+.forgot_password{
+  grid-column: 1/-1;
+  margin-top: .5em;
+}
+
+form{
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-rows: repeat(6, 35px);
+  align-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  gap: 15px;
+}
+
+label{
+  padding: 10px;
+}
+
+input{
+  width: 340px;
+  padding: .175rem .75rem;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #1d212f;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #e8e8f7;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  height: calc(1.5em + .75rem + 2px);
+  border-radius: 5px;
+}
+
+button[type=submit]{
+  width: 340px;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .175rem .75rem;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.description div{
+  font-size: 14px;
+}
+
+.forms{
+  display: flex;
+  flex-direction: column;
+}
+
+.alert-bg-danger{
+  color: red;
+  font-size: 14px;
+
+}

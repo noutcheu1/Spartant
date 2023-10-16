@@ -1,0 +1,56 @@
+.container-body{
+    display: grid;
+    grid-template-rows: 1fr 2fr ;
+    width: 100%;
+    gap: 1em;
+}
+
+.up{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 250px 600px;
+}
+
+.down{
+     display: grid;
+     gap: 2em;
+     grid-template-columns:  250px 600px;
+}
+.date-description{
+  display: grid;
+  gap: 1.4em;
+  grid-template-rows: 330px 240px
+}
+
+.plot-line, .plot-geo, .plot-description, .plot-circle{
+   border-radius: 1em;
+   background: linear-gradient(180deg, blue, lightblue) ;
+   display: flex;
+    flex-direction: column;
+    gap: 2em !important;
+  text-align: left;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 1em;
+}
+
+.plot-calender, .plot-line, .plot-geo, .plot-description, .plot-circle{
+   border-radius: 1em;
+    background: linear-gradient(180deg, blue, lightblue) ;
+   display: flex;
+    flex-direction: column;
+    gap: 2em !important;
+  text-align: left;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 1em;
+}
+.up .body{
+  width: 100%;
+}
+.header::before{
+    content: url('/assets/img/icon-hamburger.svg');
+    font-size: 12px;
+    padding-right: 10px;
+
+}
