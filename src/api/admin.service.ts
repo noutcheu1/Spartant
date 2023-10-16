@@ -17,7 +17,7 @@ export class AdminService {
     }),
   };
 
-  baseurl:string = 'http://127.0.0.1:8000/api/v1';
+  baseurl:string = 'http://noutcheu.pythonanywhere.com/api/v1';
   constructor(private http: HttpClient) { }
 
     login(adminDetail: Login): Observable<any>{
